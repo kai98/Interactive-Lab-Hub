@@ -125,8 +125,7 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 ### Sketch of Device
-![image](https://user-images.githubusercontent.com/15386798/132262156-d441708e-686a-4bed-bb7c-ff78df97d5b2.png){width: 200px}
-
+<img width="673" alt="image" src="https://user-images.githubusercontent.com/15386798/132262225-8e9f7609-8cee-4dd7-b536-c603106c82a8.png">
 
 ## Part F. Record
 
