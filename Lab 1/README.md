@@ -68,7 +68,17 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
-\*\***Describe your setting, players, activity and goals here.**\*\*
+\*\*
+
+This is a cooktop lighting device in the kitchen. It includes an infrared camera to sense temperature, several RGB spotlights to indicate the status of each burner. This system is designed to visualize the cooking process with colorful lights. The goal of the player is to cook better with light indications. 
+
+Storyboard:
+
+1. User wants to cook something and set up the target time and temperature for cooking.
+2. A red light indicates that the burner is heating up. 
+3. After reaching the target temperature, it start timing and light turns yellow. 
+4. The light turns green when the whole process ends.
+\*\*
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
