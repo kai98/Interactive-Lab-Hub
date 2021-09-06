@@ -90,10 +90,10 @@ Storyboard:
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
-\*\***Are there things that seemed better on paper than acted out?**\*\*
+### Act out the Interaction
 
-\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
-
+1. The system can work better along with a phone application that organizes recipes and to customize lighting patterns for users. 
+2. Infrared temperature is not as accurate as food thermometers, but it is more convenience and can be used to monitor multiple burners in real time.
 
 ## Part C. Prototype the device
 
