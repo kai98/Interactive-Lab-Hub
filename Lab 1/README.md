@@ -114,16 +114,22 @@ If you run into technical issues with this tool, you can also use a light switch
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
+Sometimes it is not working on the MacOS. 
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
+My friend helped me set up philips hue light bulbs for the scenario. We used a phone to control the color and brighness. 
+---
+
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
 
+We set up the color for each stage, and controled the lights while recording. 
+---
 
 ## Part E. Costume the device
 
