@@ -144,6 +144,8 @@ The device should be including LED spotlights that can indicate multiple burners
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+https://www.youtube.com/watch?v=c5YJbojSL1s
+
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
