@@ -96,9 +96,11 @@ Present your idea to the other people in your breakout room. You can just get fe
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
+
 Infrared temperature is not as accurate as food thermometers, but it is more convenience and can be used to monitor multiple burners in real time. 
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+
 The system can work better along with a phone application that organizes recipes and to customize lighting patterns for users. 
 
 ---
@@ -122,6 +124,7 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
 My friend helped me set up philips hue light bulbs for the scenario. We used a phone to control the color and brighness. 
+
 ---
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
@@ -129,6 +132,7 @@ Now, hange the goal within the same setting, and update the interaction with the
 \*\***Show the follow-up work here.**\*\*
 
 We set up the color for each stage, and controled the lights while recording. 
+
 ---
 
 ## Part E. Costume the device
