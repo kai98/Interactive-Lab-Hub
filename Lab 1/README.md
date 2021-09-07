@@ -1,5 +1,3 @@
-
-
 # Staging Interaction
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
@@ -68,32 +66,25 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
-### Plan & Storyboard
+\*\***Describe your setting, players, activity and goals here.**\*\*
 
-This is a cooktop lighting device in the kitchen. It includes an infrared camera to sense temperature, several RGB spotlights to indicate the status of each burner. This system is designed to visualize the cooking process with colorful lights. The goal of the player is to cook better with light indications. 
+Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
-Storyboard:
+\*\***Include a picture of your storyboard here**\*\*
 
-1. User wants to cook something and set up the target time and temperature for cooking.
-2. A red light indicates that the burner is heating up. 
-3. After reaching the target temperature, it start timing and light turns yellow. 
-4. The light turns green when the whole process ends.
+Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
-![image](https://user-images.githubusercontent.com/15386798/132262127-821b3717-f2de-48c8-a0d7-0a22fdbf6aa5.png)
+\*\***Summarize feedback you got here.**\*\*
 
-### Feedback
-
-- More lighting patterns can be helpful.
-- The device can also push notifications to phone with detail information such as current temperature, whether it is too hot or too cold, the whole instruction for cooking, etc.
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
-### Act out the Interaction
+\*\***Are there things that seemed better on paper than acted out?**\*\*
 
-1. The system can work better along with a phone application that organizes recipes and to customize lighting patterns for users. 
-2. Infrared temperature is not as accurate as food thermometers, but it is more convenience and can be used to monitor multiple burners in real time.
+\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+
 
 ## Part C. Prototype the device
 
@@ -124,8 +115,10 @@ Only now should you start worrying about what the device should look like. Devel
 
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
-### Sketch of Device
-<img width="673" alt="image" src="https://user-images.githubusercontent.com/15386798/132262225-8e9f7609-8cee-4dd7-b536-c603106c82a8.png">
+\*\***Include sketches of what your device might look like here.**\*\*
+
+\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+
 
 ## Part F. Record
 
