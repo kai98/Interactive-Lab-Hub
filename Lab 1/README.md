@@ -67,25 +67,41 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
+This is a cooktop lighting device in the kitchen. It includes an infrared camera to sense temperature, several RGB spotlights to indicate the status of each burner. This system is designed to visualize the cooking process with colorful lights. The goal of the player is to cook better with light indications. 
 
+---
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
-\*\***Include a picture of your storyboard here**\*\*
+### Storyboard:
 
+1. User wants to cook something and set up the target time and temperature for cooking. (300F for 5 minutes)
+2. A red light indicates that the burner is heating up. 
+3. After reaching the target temperature (300F), light turns yellow and it starts timing for 5 minutes.  
+4. The light turns green when the whole process ends.
+
+\*\***Include a picture of your storyboard here**\*\*
+![image](https://user-images.githubusercontent.com/15386798/132272239-02d2b31d-b6a8-4964-b061-dcea2fb68d64.png)
+
+---
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
+### Feedback:
+- More lighting patterns can be helpful.
+- The device can also push notifications to phone with detail information such as current temperature, whether it is too hot or too cold, the whole instruction for cooking, etc.
 
-
+---
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
+Infrared temperature is not as accurate as food thermometers, but it is more convenience and can be used to monitor multiple burners in real time. 
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+The system can work better along with a phone application that organizes recipes and to customize lighting patterns for users. 
 
-
+---
 ## Part C. Prototype the device
 
 You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
@@ -116,9 +132,13 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your device might look like here.**\*\*
+### Sketch of the Device
+<img width="497" alt="image" src="https://user-images.githubusercontent.com/15386798/132272521-85a78b65-e156-41af-a361-f3b64ccf790f.png">
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
+The device should be including LED spotlights that can indicate multiple burners simultaneously. Also it should come with an infrared camera for sensing the temperature. 
 
+---
 
 ## Part F. Record
 
