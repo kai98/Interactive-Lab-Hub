@@ -171,6 +171,11 @@ This describes the second week's work for this lab activity.
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
 \*\***Summarize feedback from your partners here.**\*\*
+1. The indication based on color can be ambiguous. Alexander points out that red is generally associated with hot, instead of the heating up process. A better color scheme should be applied to make it clear. 
+
+2. Using color lights only is not good for cooking, suggested by Brett. Instead of having spotlights as indicators, LED lights on the side of burners can be a better option.  
+
+3. Customizable color schema can help users set up their preferred setting and for all kinds of cooking processes. 
 
 ## Make it your own
 
