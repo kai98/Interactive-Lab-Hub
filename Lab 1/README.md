@@ -186,3 +186,7 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+### Prototype Scratch (Improved)
+<img width="684" alt="image" src="https://user-images.githubusercontent.com/15386798/133175476-efe0ec73-e97d-4aa9-aca8-6df11010d1c5.png">
+
