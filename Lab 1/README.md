@@ -197,7 +197,7 @@ I am using a very similar scenario here, with updated product prototype.
 3. After reaching the target temperature (450F), the background turns red and it starts timing for 5 minutes, displaying that it is cooking.  
 4. The light turns green when the whole process ends.
 
-<img width="697" alt="image" src="https://user-images.githubusercontent.com/15386798/133179498-4c13d90b-0760-4cca-a848-1ec88f6c8f6c.png">
+<img width="691" alt="image" src="https://user-images.githubusercontent.com/15386798/133179733-7838fe7f-120b-4117-bce3-f38b77d8df2d.png">
 
 ### Prototype Scratch 
 
