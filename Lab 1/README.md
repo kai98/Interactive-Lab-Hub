@@ -187,7 +187,11 @@ Do last week’s assignment again, but this time:
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
 
-The color schema
+The color schema was updated as following: 
+Yellow lights -> Heating up (warm temperature)
+Red lights -> Cooking (hot temperature)
+Green lights -> Food is ready
+
 ### Story Board
 
 I am using a very similar scenario here, with updated product prototype. 
@@ -202,4 +206,6 @@ I am using a very similar scenario here, with updated product prototype.
 ### Prototype Scratch 
 
 <img width="684" alt="image" src="https://user-images.githubusercontent.com/15386798/133175476-efe0ec73-e97d-4aa9-aca8-6df11010d1c5.png">
+
+### Demo Video
 
