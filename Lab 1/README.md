@@ -187,6 +187,19 @@ Do last week’s assignment again, but this time:
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
 
-### Prototype Scratch (Improved)
+The color schema
+### Story Board
+
+I am using a very similar scenario here, with updated product prototype. 
+
+1. User wants to cook something and set up the target time and temperature for cooking. (450F for 5 minutes)
+2. A screen with yellow backgroud indicates that the burner is heating up, also indicating the current temperature. 
+3. After reaching the target temperature (450F), the background turns red and it starts timing for 5 minutes, displaying that it is cooking.  
+4. The light turns green when the whole process ends.
+
+<img width="697" alt="image" src="https://user-images.githubusercontent.com/15386798/133179498-4c13d90b-0760-4cca-a848-1ec88f6c8f6c.png">
+
+### Prototype Scratch 
+
 <img width="684" alt="image" src="https://user-images.githubusercontent.com/15386798/133175476-efe0ec73-e97d-4aa9-aca8-6df11010d1c5.png">
 
