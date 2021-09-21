@@ -21,16 +21,16 @@ If you are in New York, you can come to the campus and pick up your parts. If yo
 ### Set up your Lab 2
 
 1. [Pull changes from the Interactive Lab Hub](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md#to-pull-lab-updates) so that you have your own copy of Lab 2 on your own lab hub. (This may have to be done again at the start of lab on Thursday.)
-  
+
   If you are organizing your Lab Hub through folder in local machine, go to terminal, cd into your Interactive-Lab-Hub folder and run:
 
   ```
   Interactive-Lab-Hub $ git remote add upstream https://github.com/FAR-Lab/Interactive-Lab-Hub.git
   Interactive-Lab-Hub $ git pull upstream Fall2021
   ```
-  
+
   The reason why we are adding a upstream with **course lab-hub** instead of yours is because the local Interactive-Lab-Hub folder is linked with your own git repo already. Try typing ``git remote -v`` and you should see there is the origin branch with your own git repo. We here add the upstream to get latest updates from the teaching team by pulling the **course lab-hub** to your local machine. After your local folder got the latest updates, push them to your remote git repo by running:
-  
+
   ```
   Interactive-Lab-Hub $ git add .
   Interactive-Lab-Hub $ git commit -m'merge'
@@ -179,6 +179,10 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
 
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
+
+
+![image-20210921063651099](/Users/kai/Desktop/Cornell_Tech/F2021/IDD/Interactive-Lab-Hub/Lab 2/prototype.png)
+
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
 
 After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
@@ -216,5 +220,4 @@ Modify the code from last week's lab to make a new visual interface for your new
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
-
 
