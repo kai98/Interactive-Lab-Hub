@@ -179,10 +179,9 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
 
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
+### Scratch - Team member: Angela Chen (ac2689) & Kaiyuan Deng (kd487)
 
-
-![image-20210921063651099](/Users/kai/Desktop/Cornell_Tech/F2021/IDD/Interactive-Lab-Hub/Lab 2/prototype.png)
-
+<img width="698" alt="image" src="https://user-images.githubusercontent.com/15386798/134265781-83410db9-2363-4719-ac79-806c6adfe818.png">
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
 
 After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
