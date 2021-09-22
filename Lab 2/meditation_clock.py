@@ -101,13 +101,16 @@ def notyet_event(scenario):
 def pause_event(scenario):
     return scenario.stage == Stage.yes and isPressed_A()
 
-def cont_event(scenario):
+def continue_event(scenario):
     return scenario.stage == Stage.pause and isPressed_A()
 
-def exit_event(scenario):
+def quit_event(scenario):
     return scenario.stage == Stage.yes and isPressed_B()
 
+# TODO: resolve pause
 def done_event(scenario):
+    if scenario.stage == Stage.pause:
+        return False
     current_time = time.time()
     return current_time - scenario.starttime >= scenario.duration
 
@@ -116,7 +119,7 @@ def draw_text_align(min_x, max_x, min_y, max_y, msg, font=font, fill="#FFFFFF"):
     # font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 22)
     w, h = draw.textsize(msg, font=font)
     draw.text((min_x+(max_x-min_x-w)/2,min_y+(max_y-min_y-h)/2), msg, font=font, fill=fill)
-    print((min_x+(max_x-min_x-w)/2,min_y+(max_y-min_y-h)/2))
+    # print((min_x+(max_x-min_x-w)/2,min_y+(max_y-min_y-h)/2))
 
 class Scenario(object): 
     x_sidebar = 0
@@ -124,17 +127,24 @@ class Scenario(object):
     font = font
     sidebar_color = "#F9F5F5"
     starttime = 0
-    duration = 30
+    duration = 40
+    isPause = False
+    pausetimestamp = 0
 
     def __init__(self):
         self.title=input
         self.color=None
         self.greeting="Greeting"
         self.stage=Stage.default
-        self.starttime = time.time()
+
         # self.themeColor="white"
 
     def show(self):
+        if self.stage == Stage.pause:
+            self.pause()
+        if self.stage == Stage.cont:
+            self.go()
+
         self.display_greeting()
         self.display_sidebar()
 
@@ -146,19 +156,35 @@ class Scenario(object):
         # ButtonB:
         draw_text_align(self.x_sidebar, self.x_content, height / 2, height, buttonB_text, font, "black")
 
+    def yes(self):
+        self.stage = Stage.yes
+        self.starttime = time.time()
+        print("Choose Yes!")
+
 
     def display_sidebar(self):
         draw.rectangle((0, 0, self.x_content, height), outline=0, fill=self.sidebar_color)
         if self.stage == Stage.default:
             self.display_buttons("Yes", "Nope")
 
-        if self.stage == Stage.yes:
-            self.display_buttons("Pause", "Exit")
+        if self.stage == Stage.yes or self.stage == Stage.cont:
+            self.display_buttons("Pause", "Quit")
 
         if self.stage == Stage.pause:
-            self.display_buttons("Go", "Exit")
+            self.display_buttons("Go", "Quit")
         
+        
+    def pause(self):
+        self.pausetimestamp = time.time()
 
+    def go(self):
+        self.stage = Stage.cont
+        bonustime = time.time() - self.pausetimestamp
+        self.duration += bonustime
+
+    def done(self):
+        self.stage = Stage.default
+        print("Done!")
 
     def display_themeColor(self):
         draw.rectangle((self.x_content, 0, width, height), outline=0, fill=self.color)
@@ -201,30 +227,36 @@ while True:
 
     # Switch to the next meditation
     if next_event(curr_scenario):
+        print("next_event")
         curr_index = (curr_index + 1) % len(schedule)
         curr_scenario = create_scenarios(schedule[curr_index])
 
-    # 
     elif yes_event(curr_scenario):
+        print("yes_event")
         curr_scenario.stage = Stage.yes
 
     elif notyet_event(curr_scenario):
+        print("notyet_event")
         curr_scenario.stage = Stage.notyet
 
     elif pause_event(curr_scenario):
+        print("pause_event")
         curr_scenario.stage = Stage.pause
     
-    # elif continue_event(curr_scenario):
-    #     curr_scenario.stage = Stage.cont
+    elif continue_event(curr_scenario):
+        print("continue_event")
+        curr_scenario.stage = Stage.cont
 
-    elif exit_event(curr_scenario):
+    elif quit_event(curr_scenario):
+        print("exit_event")
         curr_scenario.stage = Stage.exit
 
     elif done_event(curr_scenario):
+        print("done_event")
         curr_scenario.stage = Stage.done
 
     curr_scenario.show()
 
     # Display image.
     disp.image(image, rotation)
-    sleep(0.3)
+    sleep(0.5)
