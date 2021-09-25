@@ -127,7 +127,7 @@ class Scenario(object):
     font = font
     sidebar_color = "#F9F5F5"
     starttime = 0
-    duration = 40
+    duration = 4000
     isPause = False
     pausetimestamp = 0
 
@@ -251,9 +251,9 @@ while True:
         print("exit_event")
         curr_scenario.stage = Stage.exit
 
-    elif done_event(curr_scenario):
-        print("done_event")
-        curr_scenario.stage = Stage.done
+    # elif done_event(curr_scenario):
+    #     print("done_event")
+    #     curr_scenario.stage = Stage.done
 
     curr_scenario.show()
 
