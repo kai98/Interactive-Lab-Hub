@@ -205,7 +205,7 @@ Night: 12 AM - 6 AM
 
 
 
-Also, each time period comes with different colors:
+Also, each time period comes with a unique color:
 
 Morning: Light green
 
@@ -214,8 +214,6 @@ Afternoon: Light orange
 Evening: Dark blue
 
 Night Dark purple
-
-The choose of colors was based on different moods and temperatures throughout a day. 
 
 ##### Does time have to be linear? 
 
