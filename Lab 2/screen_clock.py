@@ -66,20 +66,15 @@ def draw_text_align(min_x, max_x, min_y, max_y, msg, font=font, fill="#FFFFFF"):
     w, h = draw.textsize(msg, font=font)
     draw.text((min_x+(max_x-min_x-w)/2,min_y+(max_y-min_y-h)/2), msg, font=font, fill=fill)
 
+
+
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
-    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
-    y = top
-    current_time = strftime("%m/%d/%Y %H:%M:%S")
-    # draw.text((x, y), strftime("%m/%d/%Y"), font=font, fill="#FFFFFF")
-    # draw.text((x, y + 22), strftime("%H:%M:%S"), font=font, fill="#FFFFFF")
 
-    draw_text_align(0, 240, 0, 100, strftime("%m/%d/%Y"), font=font, fill="#FFFFFF")
-    draw_text_align(0, 240, 25, 135, strftime("%H:%M:%S"), font=font, fill="#FFFFFF")
 
     
     # Display image.
     disp.image(image, rotation)
-    time.sleep(1)
+    time.sleep(0.05)
