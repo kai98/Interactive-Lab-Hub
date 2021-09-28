@@ -147,7 +147,7 @@ class AstralClock:
     
     def get_fraction(self, pre_time, current, next_time):
         fraction = (current - pre_time).total_seconds() / (next_time - pre_time).total_seconds()
-        print(fraction)
+        # print(fraction)
         return fraction
 
     def show_progress_bar(self, timeslot, frac, next_slot):
@@ -252,10 +252,11 @@ class Proximity:
         if (current_time - self.prox_time > self.duration):
             self.scenario = Scenario.is_progress
         # print(self.is_prox)
-        print(self.scenario)
+        # print(self.scenario)
 
 p = Proximity()
 astral = AstralClock()
+print("Clock Ticking")
 
 while True:
     # Draw a black filled box to clear the image.
