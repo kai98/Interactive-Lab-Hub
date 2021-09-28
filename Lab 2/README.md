@@ -207,13 +207,13 @@ Night: 12 AM - 6 AM
 
 Also, each time period comes with a unique color:
 
-Morning: Light green
+Morning: Light Green
 
-Afternoon: Light orange
+Afternoon: Light Orange
 
-Evening: Dark blue
+Evening: Dark Blue
 
-Night Dark purple
+Night: Dark Purple
 
 ##### Does time have to be linear? 
 
@@ -303,13 +303,21 @@ Solar Clock is an idea to improve the Truman Clock (the first design) in the fol
 
 # Lab 2 Part 2
 
-Pull Interactive Lab Hub updates to your repo.
+### Lab2 Design
 
-Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
+Teammate: Angela Chen (ac2689)
 
-As always, make sure you document contributions and ideas from others explicitly in your writeup.
+For lab2, we decided to improve the original Truman Clock design with the Brainstorm#2 - Solar Clock idea. Instead evenly split 24 hours into four parts, we implemented the algorithm to fetch the special moments (dawn, sunrise, noon, sunset and dusk) in the current day and use these moments to seperate a day into 6 timeslot: dawn, morning, afternoon, evening, night and latenight. 
 
-You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+We extended the Pi with a proximity sensor to provide a better user experience. By default, the clock displays the current timeslot, a progress bar, and a percentage number based on the current status. When users interact with the clock, by putting one hand close to the Pi, it will display the date, the current accurate time, and the timezone. The clock will switch back to the default stage after five seconds. 
+
+### Video
+
+
+
+
+
+---
 
 
 
