@@ -287,7 +287,7 @@ Solar Clock is an idea to improve the Truman Clock (the first design) in the fol
 
 ##### Sketch
 
-![solor_clock_sketch](/Users/kai/Desktop/Cornell_Tech/F2021/IDD/Interactive-Lab-Hub/Lab 2/imgs/solar_clock_sketch.png)
+![solor_clock_sketch](./imgs/solar_clock_sketch.png)
 
 
 
