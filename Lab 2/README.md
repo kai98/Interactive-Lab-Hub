@@ -215,15 +215,17 @@ Evening: Dark Blue
 
 Night: Dark Purple
 
-##### Does time have to be linear? 
+#### Does time have to be linear?
 
 The time does not have to be linear. In the first version, we evenly separated 24 hours for each period. For the next version, we will try to manage the length of each period based on the real scenario, such as getting the time for sunrise, noon, and sunset for the current day to determine the length of the corresponding timeslot. 
 
-##### How do you measure a year?
+
+
+#### How do you measure a year?
 
 In this version, the year can be measured by counting the number of certain events, such as the number of nights that have been gone. It is very similar to a traditional clock.  One possible way for counting a year is to adopt different background colors for different seasons. For example, a colder color for winter and a warmer color for summer. 
 
-##### Sketch
+#### Sketch
 
 In our first sketch, the color area under the current period is decreasing from the beginning to the end. It represents a countdown of current status. When the 6 hours countdown is over, the screen will display the next status and continue counting down. We want to show the idea that the available time is always decreasing. 
 
@@ -231,7 +233,7 @@ In our first sketch, the color area under the current period is decreasing from 
 
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
 
-truman_clock.py
+[truman_clock](truman_clock.py)
 
 
 
@@ -260,21 +262,17 @@ https://youtu.be/GuJpIU0WzvE
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
-
-
-### Brainstorming
-
-#### Brainstorm #1 - Meditation Clock
+### BrainStorming #1 - Meditation Clock
 
 The first brainstorm is adding a meditation clock. It reminds users to start a meditation 3 times a day: morning, afternoon and evening. 
 
-##### Sketch
+#### Sketch
 
 ![meditation_clock_brainstorm](./imgs/meditation_clock_sketch.png)
 
 
 
-#### Brainstorm #2 - Solar Clock
+### BrainStorm #2 - Solar Clock
 
 Solar Clock is an idea to improve the Truman Clock (the first design) in the following ways:
 
@@ -283,7 +281,7 @@ Solar Clock is an idea to improve the Truman Clock (the first design) in the fol
 3. The idea is to visualize the time in a natural context. Sometimes it is more intuitive to feel how much of a period, for example, 34 % of this morning, is past and the afternoon is coming. It is a dynamic metric to measure a time in a day, thus the time in this clock is not linear and doesn't come with a unit. 
 4. It should come with an interactive design to show a common and accurate time to the users. 
 
-##### Sketch
+#### Sketch
 
 ![solor_clock_sketch](./imgs/solar_clock_sketch.png)
 
@@ -303,6 +301,10 @@ Solar Clock is an idea to improve the Truman Clock (the first design) in the fol
 
 # Lab 2 Part 2
 
+### Code
+
+[Solar Colck](solar_clock.py)
+
 ### Lab2 Design
 
 Teammate: Angela Chen (ac2689)
@@ -313,7 +315,7 @@ We extended the Pi with a proximity sensor to provide a better user experience. 
 
 ### Video
 
-
+https://drive.google.com/file/d/1fRPYr5QS_fBtaBm6ejTKysBquUskBv45/view?usp=sharing
 
 
 
