@@ -314,9 +314,7 @@ We extended the Pi with a proximity sensor to provide a better user experience. 
 
 ### Video
 
-https://drive.google.com/file/d/1fRPYr5QS_fBtaBm6ejTKysBquUskBv45/view?usp=sharing
-
-
+https://youtu.be/IOqQhXKpP5w
 
 ---
 
