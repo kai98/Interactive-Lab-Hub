@@ -143,6 +143,7 @@ class AstralClock:
         s = sun(city.observer, date=self.Today)
         for name, t in s.items():
             self.CheckPoints[name] = utc_to_local(t)
+            print(name + " : " + str(self.CheckPoints[name]))
         self.CheckPoints['midnight'] = datetime.now().astimezone(tz=None).replace(hour=0, minute=0, second=0, microsecond=0)
     
     def get_fraction(self, pre_time, current, next_time):
@@ -222,7 +223,7 @@ class AstralClock:
 
 # proximity class
 class Proximity: 
-    prox_time = 0
+    prox_time = time.time()
     prox_threshold = 5
     duration = 5
     is_prox = False
@@ -256,7 +257,8 @@ class Proximity:
 
 p = Proximity()
 astral = AstralClock()
-print("Clock Ticking")
+print("Clock Ticking...")
+
 
 while True:
     # Draw a black filled box to clear the image.
