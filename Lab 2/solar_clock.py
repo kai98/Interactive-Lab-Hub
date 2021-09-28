@@ -128,9 +128,9 @@ class AstralClock:
     Colormap = {
         'latenight': '#1d3557',
         'dawn': '#FDA396',
-        'morning': '#E66075',
+        'morning': '#98DB8D',
         'afternoon': '#FFC061', 
-        'evening': '#FDA396', 
+        'evening': '#89B1FF', 
         'night': '#457b9d', 
     }
 
