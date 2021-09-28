@@ -283,7 +283,7 @@ Solar Clock is an idea to improve the Truman Clock (the first design) in the fol
 
 #### Sketch
 
-![image](https://user-images.githubusercontent.com/15386798/135129779-fa174434-8e8e-4691-b2cc-d18f1fff3083.png =300)
+![image](https://user-images.githubusercontent.com/15386798/135129779-fa174434-8e8e-4691-b2cc-d18f1fff3083.png)
 
 
 # Prep for Part 2
