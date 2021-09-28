@@ -7,7 +7,10 @@ For our first Pi project, we will pay homage to the [timekeeping devices of old]
 It is worth spending a little time thinking about how you mark time, and what would be useful in a clock of your own design.
 
 **Please indicate anyone you collaborated with on this Lab here.**
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
+This project was done by collaborating with Angela Chen (ac2689). 
+
+
 
 ## Prep
 
@@ -157,7 +160,7 @@ You can look in `image.py` for an example of how to display an image on the scre
 ### Set up the Display Clock Demo
 Work on `screen_clock.py`, try to show the time by filling in the while loop (at the bottom of the script where we noted "TODO" for you). You can use the code in `cli_clock.py` and `stats.py` to figure this out.
 
-![IMG_4353](https://user-images.githubusercontent.com/15386798/134266224-57bfeaf5-e959-4286-955c-9a435f033db0.JPG)
+
 
 
 ### How to Edit Scripts on Pi
@@ -188,8 +191,51 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
 
 ### Scratch - Team member: Angela Chen (ac2689) & Kaiyuan Deng (kd487)
 
-<img width="698" alt="image" src="https://user-images.githubusercontent.com/15386798/134265781-83410db9-2363-4719-ac79-806c6adfe818.png">
+The first designe we made is called truman clock. The clock is indicating the time with 4 evenly seperated period in a day: morning, afternoon, evening and night. 
+
+In the first version, we set 6-hour for each time period: 
+
+Morning: 6 AM - 12 PM
+
+Afternoon: 12 PM - 6 PM
+
+Evening: 6 PM - 12 AM
+
+Night: 12 AM - 6 AM
+
+
+
+Also, each time period comes with different colors:
+
+Morning: Light green
+
+Afternoon: Light orange
+
+Evening: Dark blue
+
+Night Dark purple
+
+The choose of colors was based on different moods and temperatures throughout a day. 
+
+##### Does time have to be linear? 
+
+The time does not have to be linear. In the first version, we evenly separated 24 hours for each period. For the next version, we will try to manage the length of each period based on the real scenario, such as getting the time for sunrise, noon, and sunset for the current day to determine the length of the corresponding timeslot. 
+
+##### How do you measure a year?
+
+In this version, the year can be measured by counting the number of certain events, such as the number of nights that have been gone. It is very similar to a traditional clock.  One possible way for counting a year is to adopt different background colors for different seasons. For example, a colder color for winter and a warmer color for summer. 
+
+##### Sketch
+
+In our first sketch, the color area under the current period is decreasing from the beginning to the end. It represents a countdown of current status. When the 6 hours countdown is over, the screen will display the next status and continue counting down. We want to show the idea that the available time is always decreasing. 
+
+![image-20210928044444103](./imgs/truman_clock_sketch.png)
+
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
+
+truman_clock.py
+
+
 
 After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
 
@@ -207,16 +253,55 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
+##### Truman Clock
+
+https://youtu.be/GuJpIU0WzvE
+
+
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+
+
+
+### Brainstorming
+
+#### Brainstorm #1 - Meditation Clock
+
+The first brainstorm is adding a meditation clock. It reminds users to start a meditation 3 times a day: morning, afternoon and evening. 
+
+##### Sketch
+
+![meditation_clock_brainstorm](./imgs/meditation_clock_sketch.png)
+
+
+
+#### Brainstorm #2 - Solar Clock
+
+Solar Clock is an idea to improve the Truman Clock (the first design) in the following ways:
+
+1. Fetch the real time for dawn, sunrise, noon, sunset and dusk in a day, splitting the day into:  dawn, morning, afternoon, evening, night and latenight. 
+2. Using the background color as a progress bar. Instead of counting down, extending the bar to indicate the percentage of time left to the next status. 
+3. The idea is to visualize the time in a natural context. Sometimes it is more intuitive to feel how much of a period, for example, 34 % of this morning, is past and the afternoon is coming. It is a dynamic metric to measure a time in a day, thus the time in this clock is not linear and doesn't come with a unit. 
+4. It should come with an interactive design to show a common and accurate time to the users. 
+
+##### Sketch
+
+![solor_clock_sketch](/Users/kai/Desktop/Cornell_Tech/F2021/IDD/Interactive-Lab-Hub/Lab 2/imgs/solar_clock_sketch.png)
+
 
 
 # Prep for Part 2
 
 1. Pick up remaining parts for kit on Thursday lab class. Check the updated [parts list inventory](partslist.md) and let the TA know if there is any part missing.
-  
+
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+
+### Feedback
+
+1. Adding meditation functionality is cool. Maintaining healthy life style is important and a meditation clock can be very helpful. 
+2. Users might feel stressed to see the time counting down. A progress bar could be better.  
 
 # Lab 2 Part 2
 
@@ -227,4 +312,6 @@ Modify the code from last week's lab to make a new visual interface for your new
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+
+
 
