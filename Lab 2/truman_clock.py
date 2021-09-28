@@ -191,6 +191,9 @@ class TimeSlot:
         #     percentage = (end_min - in_min) / (end_min + 1440 - start_min)
         else:
             percentage = (in_min - start_min) / (end_min - start_min)
+        
+        if percentage > 1:
+            return 1
         return percentage
 
     def show(self, in_time):

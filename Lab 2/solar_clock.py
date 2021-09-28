@@ -126,11 +126,11 @@ class AstralClock:
     Today = None
 
     Colormap = {
-        'midnight': '#1d3557',
+        'latenight': '#1d3557',
         'dawn': '#FDA396',
-        'sunrise': '#E66075',
-        'noon': '#FFC061', 
-        'sunset': '#FDA396', 
+        'morning': '#E66075',
+        'afternoon': '#FFC061', 
+        'evening': '#FDA396', 
         'night': '#457b9d', 
     }
 
@@ -182,39 +182,48 @@ class AstralClock:
         # midnight - dawn
         if current < self.CheckPoints['dawn']:
             pre_time = self.CheckPoints['midnight']
-            next_time = self.CheckPoints['dawn']
-            current_timeslot = "midnight"
+
+            current_timeslot = "latenight"
             next_slot = 'dawn'
+
+            next_time = self.CheckPoints['dawn']
 
         elif current < self.CheckPoints['sunrise']:
             pre_time = self.CheckPoints['dawn']
-            next_time = self.CheckPoints['sunrise']
+
             current_timeslot = "dawn"
-            next_slot = 'sunrise'
+            next_slot = 'morning'
+
+            next_time = self.CheckPoints['sunrise']
+
 
         elif current < self.CheckPoints['noon']:
             pre_time = self.CheckPoints['sunrise']
+
+            current_timeslot = "morning"
+            next_slot = 'afternoon'
+
             next_time = self.CheckPoints['noon']
-            current_timeslot = "sunrise"
-            next_slot = 'noon'
+
 
         elif current < self.CheckPoints['sunset']:
             pre_time = self.CheckPoints['noon']
+            current_timeslot = "afternoon"
+            next_slot = 'evening'
             next_time = self.CheckPoints['sunset']
-            current_timeslot = "noon"
-            next_slot = 'sunset'
+
 
         elif current < self.CheckPoints['dusk']:
             pre_time = self.CheckPoints['sunset']
+            current_timeslot = "evening"
+            next_slot = 'night'
             next_time = self.CheckPoints['dusk']
-            current_timeslot = "sunset"
-            next_slot = 'dusk'
 
         else:
             pre_time = self.CheckPoints['dusk']
-            next_time = self.CheckPoints['midnight']
             current_timeslot = "night"
-            next_slot = 'midnight'
+            next_slot = 'latenight'
+            next_time = self.CheckPoints['midnight']
 
         frac = self.get_fraction(pre_time, current, next_time)
         self.show_progress_bar(current_timeslot, frac, next_slot)
