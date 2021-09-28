@@ -131,7 +131,7 @@ class AstralClock:
         'sunrise': '#E66075',
         'noon': '#FFC061', 
         'sunset': '#FDA396', 
-        'evening': '#457b9d', 
+        'night': '#457b9d', 
     }
 
     # 6 time slots:
@@ -212,7 +212,7 @@ class AstralClock:
         else:
             pre_time = self.CheckPoints['dusk']
             next_time = self.CheckPoints['midnight']
-            current_timeslot = "evening"
+            current_timeslot = "night"
             next_slot = 'midnight'
 
         frac = self.get_fraction(pre_time, current, next_time)
