@@ -8,7 +8,7 @@ It is worth spending a little time thinking about how you mark time, and what wo
 
 **Please indicate anyone you collaborated with on this Lab here.**
 
-This project was done by collaborating with Angela Chen (ac2689). 
+This project was done by collaborating with Angela Chen (ac2689).
 
 
 
@@ -22,13 +22,12 @@ If you are remote but in the US, let the teaching team know you need the parts m
 
 If you are in New York, you can come to the campus and pick up your parts. If you have not picked up your parts by Thursday lab you should come to Tata 351.
 
+
 ### Set up your Lab 2
 
 1. [Pull changes from the Interactive Lab Hub](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md#to-pull-lab-updates) so that you have your own copy of Lab 2 on your own lab hub. (This may have to be done again at the start of lab on Thursday.)
-<<<<<<< HEAD
-
 =======
->>>>>>> ec9353038038a396b78ba819a1936e83575f63bc
+
   If you are organizing your Lab Hub through folder in local machine, go to terminal, cd into your Interactive-Lab-Hub folder and run:
 
   ```
@@ -49,15 +48,15 @@ If you are in New York, you can come to the campus and pick up your parts. If yo
 
 
 ## Overview
-For this assignment, you are going to 
+For this assignment, you are going to
 
 A) [Connect to your Pi](#part-a)  
 
-B) [Try out cli_clock.py](#part-b) 
+B) [Try out cli_clock.py](#part-b)
 
 C) [Set up your RGB display](#part-c)
 
-D) [Try out clock_display_demo](#part-d) 
+D) [Try out clock_display_demo](#part-d)
 
 E) [Modify the code to make the display your own](#part-e)
 
@@ -70,7 +69,7 @@ This readme.md page in your own repository should be edited to include the work 
 
 Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
 
-## Part A. 
+## Part A.
 ### Connect to your Pi
 Just like you did in the lab prep, ssh on to your pi. Once you get there, create a Python environment by typing the following commands.
 
@@ -79,7 +78,7 @@ ssh pi@<your Pi's IP address>
 ...
 pi@ixe00:~ $ virtualenv circuitpython
 pi@ixe00:~ $ source circuitpython/bin/activate
-(circuitpython) pi@ixe00:~ $ 
+(circuitpython) pi@ixe00:~ $
 
 ```
 ### Setup Personal Access Tokens on GitHub
@@ -88,7 +87,7 @@ The support for password authentication of GitHub was removed on August 13, 2021
 Following the steps listed [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) from GitHub to set up a token. Depends on your preference, you can set up and select the scopes, or permissions, you would like to grant the token. This token will act as your GitHub password later when you use the terminal on your Pi to sync files with your lab-hub repo.
 
 
-## Part B. 
+## Part B.
 ### Try out the Command Line Clock
 Clone your own lab-hub repo for this assignment to your Pi and change the directory to Lab 2 folder (remember to replace the following command line with your own GitHub ID):
 
@@ -98,11 +97,12 @@ Clone your own lab-hub repo for this assignment to your Pi and change the direct
 ```
 Depends on the setting, you might be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you just set up as the password instead of your account one!
 
+
 Install the packages from the requirements.txt and run the example script `cli_clock.py`:
 
 ```
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ pip install -r requirements.txt
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ python cli_clock.py 
+(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ python cli_clock.py
 02/24/2021 11:20:49
 ```
 
@@ -110,7 +110,7 @@ The terminal should show the time, you can press `ctrl-c` to exit the script.
 If you are unfamiliar with the Python code in `cli_clock.py`, have a look at [this Python refresher](https://hackernoon.com/intermediate-python-refresher-tutorial-project-ideas-and-tips-i28s320p). If you are still concerned, please reach out to the teaching staff!
 
 
-## Part C. 
+## Part C.
 ### Set up your RGB Display
 We have asked you to equip the [Adafruit MiniPiTFT](https://www.adafruit.com/product/4393) on your Pi in the Lab 2 prep already. Here, we will introduce you to the MiniPiTFT and Python scripts on the Pi with more details.
 
@@ -137,7 +137,7 @@ Line up the screen and press it on the headers. The hole in the screen should ma
 
 The display uses a communication protocol called [SPI](https://www.circuitbasics.com/basics-of-the-spi-communication-protocol/) to speak with the raspberry pi. We won't go in depth in this course over how SPI works. The port on the bottom of the display connects to the SDA and SCL pins used for the I2C communication protocol which we will cover later. GPIO (General Purpose Input/Output) pins 23 and 24 are connected to the two buttons on the left. GPIO 22 controls the display backlight.
 
-We can test it by typing 
+We can test it by typing
 ```
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ python screen_test.py
 ```
@@ -156,7 +156,7 @@ You can look in `image.py` for an example of how to display an image on the scre
 
 
 
-## Part D. 
+## Part D.
 ### Set up the Display Clock Demo
 Work on `screen_clock.py`, try to show the time by filling in the while loop (at the bottom of the script where we noted "TODO" for you). You can use the code in `cli_clock.py` and `stats.py` to figure this out.
 
@@ -180,6 +180,7 @@ Option 2. Another way for you to edit scripts is to use VNC on your laptop to re
 Now you should be able to edit python scripts with Thonny on your Pi.
 
 
+
 ## Part E.
 ### Modify the barebones clock to make it your own
 
@@ -191,9 +192,9 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
 
 ### Scratch - Team member: Angela Chen (ac2689) & Kaiyuan Deng (kd487)
 
-The first designe we made is called truman clock. The clock is indicating the time with 4 evenly seperated period in a day: morning, afternoon, evening and night. 
+The first designe we made is called truman clock. The clock is indicating the time with 4 evenly seperated period in a day: morning, afternoon, evening and night.
 
-In the first version, we set 6-hour for each time period: 
+In the first version, we set 6-hour for each time period:
 
 Morning: 6 AM - 12 PM
 
@@ -217,17 +218,17 @@ Night: Dark Purple
 
 #### Does time have to be linear?
 
-The time does not have to be linear. In the first version, we evenly separated 24 hours for each period. For the next version, we will try to manage the length of each period based on the real scenario, such as getting the time for sunrise, noon, and sunset for the current day to determine the length of the corresponding timeslot. 
+The time does not have to be linear. In the first version, we evenly separated 24 hours for each period. For the next version, we will try to manage the length of each period based on the real scenario, such as getting the time for sunrise, noon, and sunset for the current day to determine the length of the corresponding timeslot.
 
 
 
 #### How do you measure a year?
 
-In this version, the year can be measured by counting the number of certain events, such as the number of nights that have been gone. It is very similar to a traditional clock.  One possible way for counting a year is to adopt different background colors for different seasons. For example, a colder color for winter and a warmer color for summer. 
+In this version, the year can be measured by counting the number of certain events, such as the number of nights that have been gone. It is very similar to a traditional clock.  One possible way for counting a year is to adopt different background colors for different seasons. For example, a colder color for winter and a warmer color for summer.
 
 #### Sketch
 
-In our first sketch, the color area under the current period is decreasing from the beginning to the end. It represents a countdown of current status. When the 6 hours countdown is over, the screen will display the next status and continue counting down. We want to show the idea that the available time is always decreasing. 
+In our first sketch, the color area under the current period is decreasing from the beginning to the end. It represents a countdown of current status. When the 6 hours countdown is over, the screen will display the next status and continue counting down. We want to show the idea that the available time is always decreasing.
 
 ![image-20210928044444103](./imgs/truman_clock_sketch.png)
 
@@ -248,7 +249,7 @@ After you edit and work on the scripts for Lab 2, the files should be upload bac
 After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
 
 
-## Part F. 
+## Part F.
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
@@ -259,12 +260,12 @@ https://youtu.be/GuJpIU0WzvE
 
 
 
-## Part G. 
+## Part G.
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
 ### BrainStorming #1 - Meditation Clock
 
-The first brainstorm is adding a meditation clock. It reminds users to start a meditation 3 times a day: morning, afternoon and evening. 
+The first brainstorm is adding a meditation clock. It reminds users to start a meditation 3 times a day: morning, afternoon and evening.
 
 #### Sketch
 
@@ -276,10 +277,10 @@ The first brainstorm is adding a meditation clock. It reminds users to start a m
 
 Solar Clock is an idea to improve the Truman Clock (the first design) in the following ways:
 
-1. Fetch the real time for dawn, sunrise, noon, sunset and dusk in a day, splitting the day into:  dawn, morning, afternoon, evening, night and latenight. 
-2. Using the background color as a progress bar. Instead of counting down, extending the bar to indicate the percentage of time left to the next status. 
-3. The idea is to visualize the time in a natural context. Sometimes it is more intuitive to feel how much of a period, for example, 34 % of this morning, is past and the afternoon is coming. It is a dynamic metric to measure a time in a day, thus the time in this clock is not linear and doesn't come with a unit. 
-4. It should come with an interactive design to show a common and accurate time to the users. 
+1. Fetch the real time for dawn, sunrise, noon, sunset and dusk in a day, splitting the day into:  dawn, morning, afternoon, evening, night and latenight.
+2. Using the background color as a progress bar. Instead of counting down, extending the bar to indicate the percentage of time left to the next status.
+3. The idea is to visualize the time in a natural context. Sometimes it is more intuitive to feel how much of a period, for example, 34 % of this morning, is past and the afternoon is coming. It is a dynamic metric to measure a time in a day, thus the time in this clock is not linear and doesn't come with a unit.
+4. It should come with an interactive design to show a common and accurate time to the users.
 
 #### Sketch
 
@@ -295,7 +296,7 @@ Solar Clock is an idea to improve the Truman Clock (the first design) in the fol
 
 ### Feedback
 
-1. Adding meditation functionality is cool. Maintaining healthy life style is important and a meditation clock can be very helpful. 
+1. Adding meditation functionality is cool. Maintaining healthy life style is important and a meditation clock can be very helpful.
 2. Users might feel stressed to see the time counting down. A progress bar could be better.  
 
 # Lab 2 Part 2
@@ -308,15 +309,12 @@ Solar Clock is an idea to improve the Truman Clock (the first design) in the fol
 
 Teammate: Angela Chen (ac2689)
 
-For lab2, we decided to improve the original Truman Clock design with the Brainstorm#2 - Solar Clock idea. Instead evenly split 24 hours into four parts, we implemented the algorithm to fetch the special moments (dawn, sunrise, noon, sunset and dusk) in the current day and use these moments to seperate a day into 6 timeslot: dawn, morning, afternoon, evening, night and latenight. 
+For lab2, we decided to improve the original Truman Clock design with the Brainstorm#2 - Solar Clock idea. Instead evenly split 24 hours into four parts, we implemented the algorithm to fetch the special moments (dawn, sunrise, noon, sunset and dusk) in the current day and use these moments to seperate a day into 6 timeslot: dawn, morning, afternoon, evening, night and latenight.
 
-We extended the Pi with a proximity sensor to provide a better user experience. By default, the clock displays the current timeslot, a progress bar, and a percentage number based on the current status. When users interact with the clock, by putting one hand close to the Pi, it will display the date, the current accurate time, and the timezone. The clock will switch back to the default stage after five seconds. 
+We extended the Pi with a proximity sensor to provide a better user experience. By default, the clock displays the current timeslot, a progress bar, and a percentage number based on the current status. When users interact with the clock, by putting one hand close to the Pi, it will display the date, the current accurate time, and the timezone. The clock will switch back to the default stage after five seconds.
 
 ### Video
 
 https://youtu.be/IOqQhXKpP5w
 
 ---
-
-
-
