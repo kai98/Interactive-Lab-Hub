@@ -317,31 +317,28 @@ Solar Clock is an idea to improve the Truman Clock (the first design) in the fol
 
 [Solar Colck](solar_clock.py)
 
-### Lab2 Design
 
+### Lab2: Final Design - Solar Clock
 Teammate: Angela Chen (ac2689)
 
 For lab2, we decided to improve the original Truman Clock design with the Brainstorm#2 - Solar Clock idea. Instead evenly split 24 hours into four parts, we implemented the algorithm to fetch the special moments (dawn, sunrise, noon, sunset and dusk) in the current day and use these moments to seperate a day into 6 timeslot: dawn, morning, afternoon, evening, night and latenight.
 
 
-
-#### Our final design - Solar Clock
-
 We extended the Pi with a proximity sensor to provide a better user experience. By default, the clock displays the current timeslot, a progress bar, and a percentage number based on the current status. When users interact with the clock, by putting one hand close to the Pi, it will display the date, the current accurate time, and the timezone. The clock will switch back to the default stage after five seconds.
 
-##### Designing a day with ascending progress
+#### Designing a day with ascending progress
 
 ![solar_clock_sketch](./imgs/solar_clock_sketch.png)
 
 
-
-##### Design Details
+#### Design Details
 
 Solar Clock times the percentage of 6 different stages of a day: Dawn, Morning, Afternoon, Evening, Night and Latenight. The time periods are divided by the real timestamp of Dawn, Sunrise, Noon, Sunset and Dusk of a particular day, power by astral API. 
 
-##### Colors
+#### Colors
 
 Colors were particularly choosen based on the sky color and the mood for each time period.  
+
 
 **Dawn: \#FDA396 **
 
