@@ -230,7 +230,23 @@ In this version, the year can be measured by counting the number of certain even
 
 In our first sketch, the color area under the current period is decreasing from the beginning to the end. It represents a countdown of current status. When the 6 hours countdown is over, the screen will display the next status and continue counting down. We want to show the idea that the available time is always decreasing.
 
+
+
+Our sketch for color and text design. In the initial stage. 
+
+(Initial stage)
+
+<img src="./imgs/before.png" alt="before" style="zoom:50%;" />
+
+(After a while)
+
+<img src="./imgs/after.png" alt="after" style="zoom:50%;" />
+
+The color portion will decrease as time goes by.. 
+
 ![image-20210928044444103](./imgs/truman_clock_sketch.png)
+
+
 
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
 
@@ -282,10 +298,6 @@ Solar Clock is an idea to improve the Truman Clock (the first design) in the fol
 3. The idea is to visualize the time in a natural context. Sometimes it is more intuitive to feel how much of a period, for example, 34 % of this morning, is past and the afternoon is coming. It is a dynamic metric to measure a time in a day, thus the time in this clock is not linear and doesn't come with a unit.
 4. It should come with an interactive design to show a common and accurate time to the users.
 
-#### Sketch
-
-![image](https://user-images.githubusercontent.com/15386798/135129779-fa174434-8e8e-4691-b2cc-d18f1fff3083.png)
-
 
 # Prep for Part 2
 
@@ -311,7 +323,39 @@ Teammate: Angela Chen (ac2689)
 
 For lab2, we decided to improve the original Truman Clock design with the Brainstorm#2 - Solar Clock idea. Instead evenly split 24 hours into four parts, we implemented the algorithm to fetch the special moments (dawn, sunrise, noon, sunset and dusk) in the current day and use these moments to seperate a day into 6 timeslot: dawn, morning, afternoon, evening, night and latenight.
 
+
+
+#### Our final design - Solar Clock
+
 We extended the Pi with a proximity sensor to provide a better user experience. By default, the clock displays the current timeslot, a progress bar, and a percentage number based on the current status. When users interact with the clock, by putting one hand close to the Pi, it will display the date, the current accurate time, and the timezone. The clock will switch back to the default stage after five seconds.
+
+##### Designing a day with ascending progress
+
+![solar_clock_sketch](./imgs/solar_clock_sketch.png)
+
+
+
+##### Design Details
+
+Solar Clock times the percentage of 6 different stages of a day: Dawn, Morning, Afternoon, Evening, Night and Latenight. The time periods are divided by the real timestamp of Dawn, Sunrise, Noon, Sunset and Dusk of a particular day, power by astral API. 
+
+##### Colors
+
+Colors were particularly choosen based on the sky color and the mood for each time period.  
+
+**Dawn: \#FDA396 **
+
+**Morning: \#6DDA5C**
+
+**Afternoon: \#FFC061**
+
+**Evening: \#89B1FF**
+
+**Night: \#457B9D**
+
+**Late night: \#1D3557**
+
+
 
 ### Video
 
