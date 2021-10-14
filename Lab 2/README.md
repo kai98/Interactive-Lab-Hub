@@ -236,11 +236,11 @@ Our sketch for color and text design. In the initial stage.
 
 (Initial stage)
 
-<img src="./imgs/before.png" alt="before" style="zoom:50%;" />
+<img src="./imgs/before.png" alt="before" width="50%" />
 
 (After a while)
 
-<img src="./imgs/after.png" alt="after" style="zoom:50%;" />
+<img src="./imgs/after.png" alt="after" width="50%" />
 
 The color portion will decrease as time goes by.. 
 
@@ -328,7 +328,7 @@ We extended the Pi with a proximity sensor to provide a better user experience. 
 
 #### Designing a day with ascending progress
 
-![solar_clock_sketch](./imgs/solar_clock_sketch.png)
+<img src="./imgs/solar_clock_sketch.png" width="75%">
 
 
 #### Design Details
