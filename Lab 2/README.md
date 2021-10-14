@@ -340,7 +340,7 @@ Solar Clock times the percentage of 6 different stages of a day: Dawn, Morning, 
 Colors were particularly choosen based on the sky color and the mood for each time period.  
 
 
-**Dawn: \#FDA396 **
+**Dawn: \#FDA396**
 
 **Morning: \#6DDA5C**
 
