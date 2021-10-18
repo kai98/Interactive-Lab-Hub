@@ -179,7 +179,7 @@ Due to the limit of time, the reminder cannot be link to users' calendar account
 
 **Work Well**
 
-The controller - screen, screen buttons, the green button and the green LED light all work well in the prototype. 
+
 
 **Didn't work well**
 
@@ -187,10 +187,6 @@ The controller - screen, screen buttons, the green button and the green LED ligh
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
-
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-
-\*\**your answer here*\*\*
 
