@@ -114,6 +114,7 @@ def restaurant_section():
         restaurant = which_restaurant(intro)
     screen.text_top("Selected")
     screen.text_bottom(restaurant)
+    sleep(7)
     return restaurant
 
 def location_section(restaurant):
@@ -153,9 +154,9 @@ def which_restaurant(intro):
     speak_break(0.2)
     speak(info.describe(res))
 
-    positive = ["yes", "sure", "yep", "good", "great", "like", "perfect", "favourite"]
-    negative = ["no", "sorry", "nah", "another", "nope", "maybe"]
-    neutral = ["sounds", "food", "let", "us"]
+    positive = ["yes", "yep", "good", "great", "like", "perfect", "favourite"]
+    negative = ["no", "sorry", "nah", "another", "else"]
+    neutral = ["sounds", "food"]
 
 
     wordlist = positive + negative + neutral
@@ -183,5 +184,9 @@ def select_restaurant():
 
 
 button.LED(0)
-kick_off()
+while True:
+    if button.isPressed():
+        sleep(5)
+        kick_off()
+    sleep(0.1)
 button.LED(0)
