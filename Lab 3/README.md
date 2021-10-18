@@ -101,6 +101,7 @@ From a remote browser on the same network, check to make sure your webserver is 
 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
+<<<<<<< HEAD
 ##### Storyboard
 
 ![RandomResturantStoryboard](./imgs/RandomResturantStoryboard.png)Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
@@ -108,6 +109,13 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 ##### Flowchart
 
 ![RandomResturantFlowchart](./imgs/RandomResturantFlowchart.png)
+=======
+\*\***Post your storyboard and diagram here.**\*\*
+
+Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
+
+\*\***Please describe and document your process.**\*\*
+>>>>>>> d6937e613183e406398ce104bb43e6f01b726359
 
 ### Acting out the dialogue
 
@@ -137,6 +145,7 @@ The system should:
 * use one or more sensors
 * require participants to speak to it. 
 
+<<<<<<< HEAD
 
 
 ### Video
@@ -276,6 +285,11 @@ The user was interacting with the Random Restaurant machine to gain suggestion f
 
 
 
+=======
+*Document how the system works*
+
+*Include videos or screencaptures of both the system and the controller.*
+>>>>>>> d6937e613183e406398ce104bb43e6f01b726359
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
@@ -283,6 +297,7 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
+<<<<<<< HEAD
 **Work Well**
 
 The voice recognition and interactions worked well. The machine can understand the responds and use the information for next interactions. The prototpye successfully generate a reminder at the end. 
@@ -306,3 +321,20 @@ Due to the limit of time, the reminder cannot be link to users' calendar account
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
+=======
+\*\**your answer here*\*\*
+
+### What worked well about the controller and what didn't?
+
+\*\**your answer here*\*\*
+
+### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
+
+\*\**your answer here*\*\*
+
+
+### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
+
+\*\**your answer here*\*\*
+
+>>>>>>> d6937e613183e406398ce104bb43e6f01b726359

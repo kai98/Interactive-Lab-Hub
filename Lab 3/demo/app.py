@@ -21,7 +21,11 @@ i2c = busio.I2C(board.SCL, board.SDA)
 mpu = adafruit_mpu6050.MPU6050(i2c)
 
 hostname = socket.gethostname()
+<<<<<<< HEAD
 hardware = 'plughw:3,0'
+=======
+hardware = 'plughw:2,0'
+>>>>>>> d6937e613183e406398ce104bb43e6f01b726359
 
 app = Flask(__name__)
 socketio = SocketIO(app)

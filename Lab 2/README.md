@@ -26,8 +26,12 @@ If you are in New York, you can come to the campus and pick up your parts. If yo
 ### Set up your Lab 2
 
 1. [Pull changes from the Interactive Lab Hub](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md#to-pull-lab-updates) so that you have your own copy of Lab 2 on your own lab hub. (This may have to be done again at the start of lab on Thursday.)
+<<<<<<< HEAD
 =======
 
+=======
+  
+>>>>>>> d6937e613183e406398ce104bb43e6f01b726359
   If you are organizing your Lab Hub through folder in local machine, go to terminal, cd into your Interactive-Lab-Hub folder and run:
 
   ```
@@ -190,6 +194,7 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
 
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
+<<<<<<< HEAD
 ### Scratch - Team member: Angela Chen (ac2689) & Kaiyuan Deng (kd487)
 
 The first designe we made is called truman clock. The clock is indicating the time with 4 evenly seperated period in a day: morning, afternoon, evening and night.
@@ -247,6 +252,8 @@ The color portion will decrease as time goes by..
 ![image-20210928044444103](./imgs/truman_clock_sketch.png)
 
 
+=======
+>>>>>>> d6937e613183e406398ce104bb43e6f01b726359
 
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
 
