@@ -137,19 +137,131 @@ The system should:
 * use one or more sensors
 * require participants to speak to it. 
 
-*Document how the system works*
-
-**Video**
+#### Video
 
 https://drive.google.com/file/d/1GkWp6-5U9MfsmKB7xdLomM91GaroflT6/view?usp=sharing
 
-**Script**
+#### Script
+
+The user was interacting with the Random Restaurant machine to gain suggestion for nearby restaurant. 
 
 (Pressed the green button to start)
 
-Machine: 
 
-User: 
+
+**Machine**
+
+* Screen: 
+
+  - Random Restaurant 
+
+  - Press to Start
+
+* eSpeak: 
+
+  * Hi, I am random restaurant machine. 
+
+  
+
+**User**
+
+* Interaction: 
+  * Pressed the button to start
+
+
+
+**Machine**
+
+* Screen: 
+
+  - Which Meal?
+
+  - [Listening...]
+
+* eSpeak: 
+  * What would you like to have? Breakfast, lunch or dinner. 
+
+
+
+**User**
+
+* Voice: 
+  * (Breakfast, lunch or dinner)
+
+
+
+**Machine**
+
+* Screen: 
+
+  - Which Restaurant? 
+
+  - [Listening...]
+
+* eSpeak: 
+  * Randomly selecting a restaurant... (and description of the restaurant)
+
+
+
+**User**
+
+* Voice: 
+  * (if no, or negative feedback, the machine will suggest another restaurant)
+  * (if yes or positive feedback, the machine will pick the current restaurant)
+
+[Receive negative feedback]
+
+**Machine**
+
+* Screen: 
+
+  - Which Restaurant? 
+
+  - [Listening...]
+
+* eSpeak: 
+  * Ok, let me try again...How about xxx restaurant, (and description of the restaurant)
+
+[Receive positive feedback]
+
+**Machine**
+
+* Screen: 
+
+  - Restaurant Selected
+
+  - [Restaurant Name]
+
+
+
+**Machine**
+
+* Screen: 
+
+  - Location
+
+  - [Restaurant Location]
+
+* eSpeak: 
+
+  * Location: [Restaurant Location]
+  * Generate Reminder? 
+
+
+
+**User**
+
+* Interaction:
+  * Press the button to generate the reminder
+
+
+
+**Machine**
+
+* Screen: 
+  - Reminder and details
+* eSpeak: 
+  * [Restaurant name] for [Meal], [Restaurant Description and location]
 
 
 
