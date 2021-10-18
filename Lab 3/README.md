@@ -139,7 +139,27 @@ The system should:
 
 *Document how the system works*
 
-*Include videos or screencaptures of both the system and the controller.*
+**Video**
+
+https://drive.google.com/file/d/1GkWp6-5U9MfsmKB7xdLomM91GaroflT6/view?usp=sharing
+
+**Script**
+
+(Pressed the green button to start)
+
+Machine: 
+
+User: 
+
+
+
+**How the System Works**
+
+
+
+
+
+
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
@@ -147,11 +167,23 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+**Work Well**
+
+The voice recognition and interactions worked well. The machine can understand the responds and use the information for next interactions. The prototpye successfully generate a reminder at the end. 
+
+**Didn't work well**
+
+Due to the limit of time, the reminder cannot be link to users' calendar account. 
 
 ### What worked well about the controller and what didn't?
 
-\*\**your answer here*\*\*
+**Work Well**
+
+The controller - screen, screen buttons, the green button and the green LED light all work well in the prototype. 
+
+**Didn't work well**
+
+
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
