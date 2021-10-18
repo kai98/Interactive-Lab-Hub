@@ -137,11 +137,15 @@ The system should:
 * use one or more sensors
 * require participants to speak to it. 
 
-#### Video
+
+
+### Video
 
 https://drive.google.com/file/d/1GkWp6-5U9MfsmKB7xdLomM91GaroflT6/view?usp=sharing
 
-#### Script
+
+
+### Script
 
 The user was interacting with the Random Restaurant machine to gain suggestion for nearby restaurant. 
 
