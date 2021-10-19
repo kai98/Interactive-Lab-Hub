@@ -174,8 +174,18 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L
 Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
+<img width="597" alt="image" src="https://user-images.githubusercontent.com/15386798/137838256-ff640303-a491-455f-b1f3-ff1e2de4da28.png">
+
+<img width="584" alt="image" src="https://user-images.githubusercontent.com/15386798/137838271-0c513e77-c98c-4237-880f-d3d9567eef07.png">
+
+<img width="578" alt="image" src="https://user-images.githubusercontent.com/15386798/137838278-c5b8f285-28f0-4a3c-bbbb-cee4ae6ad780.png">
+
+<img width="557" alt="image" src="https://user-images.githubusercontent.com/15386798/137838292-87eb538d-761b-46e5-b71c-58f1b20ff6e5.png">
+
+<img width="589" alt="image" src="https://user-images.githubusercontent.com/15386798/137838310-7ebe928d-b3b2-4c11-acd9-9c15f3f00e3d.png">
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
