@@ -269,14 +269,6 @@ The user was interacting with the Random Restaurant machine to gain suggestion f
 
 
 
-**How the System Works**
-
-
-
-
-
-
-
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
