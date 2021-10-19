@@ -108,12 +108,12 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 ##### Flowchart
 
 ![RandomResturantFlowchart](./imgs/RandomResturantFlowchart.png)
+=======
 
-### Acting out the dialogue
 
-Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
+**Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**
 
-\*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+When acting out the dialogue, the situation can be more complex than the I imagined. Sometimes the machine might misinterpret users response.  
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
@@ -138,14 +138,13 @@ The system should:
 * require participants to speak to it. 
 
 
-
 ### Video
 
 https://drive.google.com/file/d/1GkWp6-5U9MfsmKB7xdLomM91GaroflT6/view?usp=sharing
 
 
 
-### Script
+### How the System Works (Script)
 
 The user was interacting with the Random Restaurant machine to gain suggestion for nearby restaurant. 
 
@@ -287,14 +286,16 @@ Due to the limit of time, the reminder cannot be link to users' calendar account
 
 **Work Well**
 
-
+The controller worked well and provided with all the necessary information. 
 
 **Didn't work well**
 
-
+At the first few time, the recording of the mic came with a lot of noises. 
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
+The WoZ interactions helped a lot before the prototyping process, saved a lot of time in adjusting the dialogue scripts for the actual hardware prototyping. 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
+I could further improve the system so it can remember previous interactions from a specific user, to improve future experience. 
