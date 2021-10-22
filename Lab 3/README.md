@@ -138,6 +138,10 @@ The system should:
 * require participants to speak to it. 
 
 
+### Main File
+https://github.com/kai98/Interactive-Lab-Hub/blob/Fall2021/Lab%203/r3/random_restaurant.py
+
+
 ### Code Folder
 https://github.com/kai98/Interactive-Lab-Hub/tree/Fall2021/Lab%203/r3
 
