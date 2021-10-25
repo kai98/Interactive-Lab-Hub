@@ -6,7 +6,7 @@ import time
 
 class SandGlass:
     # 5 min
-    max_time = 30
+    max_time = 15
     coe = 0.5
     mid = 64
 
