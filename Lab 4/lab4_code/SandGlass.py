@@ -5,7 +5,6 @@ import RotaryEncoder as rotery
 import time
 
 class SandGlass:
-    # 5 min
     max_time = 15
     coe = 0.5
     mid = 64
@@ -34,7 +33,6 @@ class SandGlass:
 
     def displaySandGlass(self):
         display.clear()
-
         current_direction = gyro.vertical_y()
         current_time = time.time()
         prev_direction = self.prev_direction
@@ -54,7 +52,7 @@ class SandGlass:
             # Enter setting mode:
             if rotery.simple_pressed():
                 self.setCountdown()
-                time.sleep(0.5)
+                time.sleep(0.2)
 
         diff_time = current_time - prev_time
 
@@ -100,12 +98,13 @@ class SandGlass:
             display.text(msg)
             # and display something
             if rotery.simple_pressed():
+                time.sleep(0.2)
                 break
-            time.sleep(0.05)
+
             
         self.max_time = updated_time
         self.right_amount = 0
-        time.sleep(0.5)
+        time.sleep(0.2)
 
 sg = SandGlass()
 while True:
