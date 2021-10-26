@@ -302,7 +302,7 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 
 #### Iteration 1: Barebone (from part 1)
 
-![barebone](/Users/kai/Desktop/Cornell_Tech/F2021/IDD/Interactive-Lab-Hub/Lab 4/imgs/barebone.png)
+![barebone](./imgs/barebone.png)
 
 In this iteration, I focused on the arrangement of the components. Putting the OLED display on the side can save a lot of space and looks more intuitive to users. The gyro was set inside the box and the knob was used for users to set up the machine when the clock is horizontal. 
 
@@ -316,7 +316,7 @@ It has no software to support its function, only act like a demo.
 
 ### Iteration 2: Simple Cardboard prototype, software development
 
-![Coding and Testing](./imgs/Coding and Testing.png)
+![Coding and Testing](./imgs/CodingAndTesting.png)
 
 ##### Coding & Testing
 This is an electric sandglass (hourglass) project. It comes with some basic functionalities that a normal sandglass would have: Should have two parts for timing: upper and lower bulb. (User Interface)An intuitive way to show the amount of time that remains. Start counting down the remaining time if it is vertical. Stop counting down when it is horizontal. 
